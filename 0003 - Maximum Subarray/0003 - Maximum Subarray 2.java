@@ -27,5 +27,3 @@ public class SHEET_0003_MaximumSubarray
         return max_sum;
     }
 }
-
-
