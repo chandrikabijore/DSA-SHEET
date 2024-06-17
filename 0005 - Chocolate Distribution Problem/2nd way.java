@@ -12,6 +12,7 @@ public class SHEET_0005_ChocolateDistributionProblem
         System.out.print(Chocolate(a, n, m));
     }
 
+    
     static int Chocolate(int[] a, int n, int m)
     {
         Arrays.sort(a);
