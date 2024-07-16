@@ -9,7 +9,7 @@
 //6 contains 1 digit (odd number of digits).
 //7896 contains 4 digits (even number of digits).
 //Therefore, only 12 and 7896 contain an even number of digits.
-
+ 
 package com.chandrika;
 
 public class DSA_00_PRACTICE
