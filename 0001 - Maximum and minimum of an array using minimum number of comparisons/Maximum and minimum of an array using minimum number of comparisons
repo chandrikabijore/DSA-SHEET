@@ -1,0 +1,39 @@
+import java.util.Arrays;
+
+public class SHEET_0001_MaxMinFinder 
+{
+    // Function to sort the array
+    public static void sortArray(int[] A) 
+    {
+        Arrays.sort(A);
+    }
+
+    // Function to get the minimum value from a sorted array
+    public static int getMin(int[] A) 
+    {
+        return A[0];
+    }
+
+    // Function to get the maximum value from a sorted array
+    public static int getMax(int[] A) 
+    {
+        return A[A.length - 1];
+    }
+
+    public static void main(String[] args) 
+    {
+        int[] A = {2, 6, 4, 8, 10, 3};
+        
+        // Sort the array
+        sortArray(A);
+
+        // Find minimum and maximum values after sorting
+        int min = getMin(A);
+        int max = getMax(A);
+
+        System.out.println("Minimum element is : " + min);
+        System.out.println("Maximum element is : " + max);
+        System.out.println("Sum of Maximum and Minimum Elements is : " + (min + max));
+    }
+}
+
