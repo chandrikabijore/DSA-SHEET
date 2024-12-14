@@ -44,4 +44,3 @@ public class SHEET_0005_ChocolateDistributionProblem
         System.out.println("Minimum Difference is " + findMinDifference(arr, m)); // Expected output: 2
     }
 }
-
