@@ -15,7 +15,7 @@ public class SHEET_0004_Contains_Duplicate
         System.out.println(sol.ContainsDuplicate(testCase3));
         System.out.println(sol.ContainsDuplicate(testCase4));
     }
-}
+} 
   
 class Solution
 {
