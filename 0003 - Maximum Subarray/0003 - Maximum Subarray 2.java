@@ -10,7 +10,7 @@ public class SHEET_0003_MaximumSubarray
 
     
     public static int maxSubArray(int[] nums)
-    {
+    { 
         int sum = 0;
         int max_sum = nums[0];
         for (int i = 0; i < nums.length; i++)
