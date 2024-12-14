@@ -38,4 +38,3 @@ public class SHEET_0001_MaxMinFinder
         return max;
      }
 }
-
