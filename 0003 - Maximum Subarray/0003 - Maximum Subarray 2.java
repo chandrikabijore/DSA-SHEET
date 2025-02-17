@@ -17,7 +17,7 @@ public class SHEET_0003_MaximumSubarray
         {
             sum = sum + nums[i];
             if (sum > max_sum)
-            {
+            { 
                 max_sum = sum;
             }
             if (sum < 0)
