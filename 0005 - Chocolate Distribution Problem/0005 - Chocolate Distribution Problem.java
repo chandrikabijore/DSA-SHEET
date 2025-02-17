@@ -8,7 +8,7 @@ public class SHEET_0005_ChocolateDistributionProblem
     {
         // If there are no chocolates or students
         if (arr.length == 0 || m == 0)
-        {
+        { 
             return 0;
         }
 
