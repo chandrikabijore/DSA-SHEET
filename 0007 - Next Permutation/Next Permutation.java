@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Practice
 {
-    public static void nextPermutation(int[] nums)
+    public static void nextPermutation(int[] nums) 
     {
         int i = nums.length - 2;
         int j = 0;
